@@ -47,15 +47,15 @@ public abstract class Satellite implements Drawable
 	{
 		mass = m;
 	}
-	public void getRadius(double r)
+	public void setRadius(double r)
 	{
 		radius = r;
 	}
-	public void getPosition(Vector p)
+	public void setPosition(Vector p)
 	{
 		position = p;
 	}
-	public void getVelocity(Vector v)
+	public void setVelocity(Vector v)
 	{
 		velocity = v;
 	}

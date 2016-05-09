@@ -18,7 +18,7 @@ public class UFO extends Satellite
 		Vector forceTot = new Vector(0.0, 0.0);
 		for(Satellite s: array)
 		{
-			if(/* true if is a planet or earth*/)
+			if(s.isPlanet() || s.isEarth() /* true if is a planet or earth*/)
 			{
 				Vector newForce = new Vector(0.0, 0.0);
 				double deltaX = super.getPosition().getX() - s.getPosition().getX();
@@ -26,21 +26,21 @@ public class UFO extends Satellite
 				double distance = deltaX - deltaY;
 				double angle = Math.atan2(deltaY, deltaX);
 				
-				double f = s.GRAVITATIONAL_CONSTANT * s.mass * super.mass / (distance * distance);
+				double f = s.GRAVITATIONAL_CONSTANT * s.getMass() * super.getMass() / (distance * distance);
 				 
 				newForce.setX(f * Math.cos(angle));
 				newForce.setY(f * Math.sin(angle));
 				forceTot.add(newForce);
 			}
 		}
-		double accelX = forceTot.getX() / super.mass;
-		double accelY = forceTot.getY() / super.mass;
+		double accelX = forceTot.getX() / super.getMass();
+		double accelY = forceTot.getY() / super.getMass();
 		
-		super.position.setX(super.velocity.getX() * TIME_INTERVAL + 0.5 * accelX * TIME_INTERVAL * TIME_INTERVAL);
-		super.position.setX(super.velocity.getY() * TIME_INTERVAL + 0.5 * accelY * TIME_INTERVAL * TIME_INTERVAL);
+		super.getPosition().setX(super.getVelocity().getX() * TIME_INTERVAL + 0.5 * accelX * TIME_INTERVAL * TIME_INTERVAL);
+		super.getPosition().setX(super.getVelocity().getY() * TIME_INTERVAL + 0.5 * accelY * TIME_INTERVAL * TIME_INTERVAL);
 		
-		super.velocity.setX(super.velocity.getX() + accelX * TIME_INTERVAL);
-		super.velocity.setY(super.velocity.getY() + accelY * TIME_INTERVAL);
+		super.getVelocity().setX(super.getVelocity().getX() + accelX * TIME_INTERVAL);
+		super.getVelocity().setY(super.getVelocity().getY() + accelY * TIME_INTERVAL);
 	}
 	
 	public void draw()
