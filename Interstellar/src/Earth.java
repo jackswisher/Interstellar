@@ -16,4 +16,8 @@ public class Earth extends Satellite implements Collision
 	{
 		
 	}
+	public boolean isPlanet()
+	{
+		return true;
+	}
 }

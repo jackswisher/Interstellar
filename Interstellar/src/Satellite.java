@@ -22,6 +22,8 @@ public abstract class Satellite implements Drawable
 	//abstract method to calculate movement of satellite
 	public abstract void getNextPosition();
 	
+	public abstract boolean isPlanet();
+	
 	//getters
 	public double getMass()
 	{
