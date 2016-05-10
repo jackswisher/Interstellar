@@ -20,4 +20,22 @@ public class Planet extends Satellite implements Collision
 	{
 		return true;
 	}
+
+	@Override
+	public boolean didCollide(Collision other) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isRound() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Vector getPos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

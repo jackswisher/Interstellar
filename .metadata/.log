@@ -20,3 +20,564 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY org.eclipse.core.net 1 0 2016-05-06 11:45:56.689
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-05-09 14:01:34.688 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-05-09 14:01:43.728
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-09 14:01:46.527
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-09 14:11:41.110
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-05-09 14:11:41.110
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.110
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.110
+!MESSAGE "Eclipse Git Team Provider" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.110
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-09 14:11:41.110
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.110
+!MESSAGE Software being installed: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.110
+!MESSAGE Missing requirement: Import framework 0.2.0.v20151123-1229 (org.eclipse.e4.ui.importer 0.2.0.v20151123-1229) requires 'bundle org.eclipse.core.jobs 3.7.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-09 14:11:41.110
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.110
+!MESSAGE From: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.110
+!MESSAGE To: bundle org.eclipse.e4.ui.importer 0.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-09 14:11:41.113
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-05-09 14:11:41.113
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.113
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.113
+!MESSAGE "Eclipse Git Team Provider" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.113
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-09 14:11:41.113
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.113
+!MESSAGE Software being installed: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.113
+!MESSAGE Missing requirement: Import framework 0.2.0.v20151123-1229 (org.eclipse.e4.ui.importer 0.2.0.v20151123-1229) requires 'bundle org.eclipse.core.jobs 3.7.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-09 14:11:41.113
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.113
+!MESSAGE From: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.113
+!MESSAGE To: bundle org.eclipse.e4.ui.importer 0.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-09 14:11:41.133
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-05-09 14:11:41.133
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.133
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.133
+!MESSAGE "Eclipse Git Team Provider" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.133
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-09 14:11:41.133
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.133
+!MESSAGE Software being installed: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.133
+!MESSAGE Missing requirement: Import framework 0.2.0.v20151123-1229 (org.eclipse.e4.ui.importer 0.2.0.v20151123-1229) requires 'bundle org.eclipse.core.jobs 3.7.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-09 14:11:41.133
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.133
+!MESSAGE From: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.133
+!MESSAGE To: bundle org.eclipse.e4.ui.importer 0.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-09 14:11:41.134
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-05-09 14:11:41.134
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.134
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.134
+!MESSAGE "Eclipse Git Team Provider" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 14:11:41.134
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-09 14:11:41.134
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.134
+!MESSAGE Software being installed: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.134
+!MESSAGE Missing requirement: Import framework 0.2.0.v20151123-1229 (org.eclipse.e4.ui.importer 0.2.0.v20151123-1229) requires 'bundle org.eclipse.core.jobs 3.7.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-09 14:11:41.134
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.134
+!MESSAGE From: Git Team Provider - experimental auto-import (Incubation) 4.3.1.201605051710-r (org.eclipse.egit.ui.importer 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-09 14:11:41.134
+!MESSAGE To: bundle org.eclipse.e4.ui.importer 0.1.0
+!SESSION 2016-05-09 14:14:25.185 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.egit.core 4 0 2016-05-09 14:14:34.358
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.core [461]
+  Unresolved requirement: Import-Package: org.eclipse.jgit.annotations; version="[4.3.1,4.4.0)"
+    -> Export-Package: org.eclipse.jgit.annotations; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"
+       org.eclipse.jgit [499]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.mylyn.ui 4 0 2016-05-09 14:14:34.367
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.mylyn.ui [463]
+  Unresolved requirement: Import-Package: org.eclipse.egit.core; version="[4.3.1,4.4.0)"
+    -> Export-Package: org.eclipse.egit.core; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.egit.core"; version="4.3.1"; x-friends:="org.eclipse.egit.ui,  org.eclipse.egit.ui.test,  org.eclipse.egit.mylyn.ui,  org.eclipse.egit.gitflow.test,  org.eclipse.egit.gitflow.ui"
+       org.eclipse.egit.core [461]
+         Unresolved requirement: Import-Package: org.eclipse.jgit.annotations; version="[4.3.1,4.4.0)"
+           -> Export-Package: org.eclipse.jgit.annotations; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"
+              org.eclipse.jgit [499]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-05-09 14:14:34.367
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.ui [464]
+  Unresolved requirement: Import-Package: org.eclipse.egit.core; version="[4.3.1,4.4.0)"
+    -> Export-Package: org.eclipse.egit.core; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.egit.core"; version="4.3.1"; x-friends:="org.eclipse.egit.ui,  org.eclipse.egit.ui.test,  org.eclipse.egit.mylyn.ui,  org.eclipse.egit.gitflow.test,  org.eclipse.egit.gitflow.ui"
+       org.eclipse.egit.core [461]
+         Unresolved requirement: Import-Package: org.eclipse.jgit.annotations; version="[4.3.1,4.4.0)"
+           -> Export-Package: org.eclipse.jgit.annotations; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"
+              org.eclipse.jgit [499]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jgit 4 0 2016-05-09 14:14:34.411
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jgit [499]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jgit.archive 4 0 2016-05-09 14:14:34.415
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jgit.archive [500]
+  Unresolved requirement: Import-Package: org.eclipse.jgit.api; version="[4.3.1,4.4.0)"
+    -> Export-Package: org.eclipse.jgit.api; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"; uses:="org.eclipse.jgit.revwalk,  org.eclipse.jgit.treewalk.filter,  org.eclipse.jgit.diff,  org.eclipse.jgit.util,  org.eclipse.jgit.notes,  org.eclipse.jgit.dircache,  org.eclipse.jgit.api.errors,  org.eclipse.jgit.lib,  org.eclipse.jgit.treewalk,  org.eclipse.jgit.blame,  org.eclipse.jgit.submodule,  org.eclipse.jgit.transport,  org.eclipse.jgit.merge"
+       org.eclipse.jgit [499]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.git.core 4 0 2016-05-09 14:14:34.429
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.git.core [546]
+  Unresolved requirement: Require-Bundle: org.eclipse.egit.core; bundle-version="0.10.0"
+    -> Bundle-SymbolicName: org.eclipse.egit.core; bundle-version="4.3.1.201605051710-r"; singleton:="true"
+       org.eclipse.egit.core [461]
+         Unresolved requirement: Import-Package: org.eclipse.jgit.annotations; version="[4.3.1,4.4.0)"
+           -> Export-Package: org.eclipse.jgit.annotations; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"
+              org.eclipse.jgit [499]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.git.ui 4 0 2016-05-09 14:14:34.433
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.git.ui [547]
+  Unresolved requirement: Require-Bundle: org.eclipse.egit.core
+    -> Bundle-SymbolicName: org.eclipse.egit.core; bundle-version="4.3.1.201605051710-r"; singleton:="true"
+       org.eclipse.egit.core [461]
+         Unresolved requirement: Import-Package: org.eclipse.jgit.annotations; version="[4.3.1,4.4.0)"
+           -> Export-Package: org.eclipse.jgit.annotations; bundle-version="4.3.1.201605051710-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.3.1"
+              org.eclipse.jgit [499]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-09 14:14:42.620
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-09 19:11:52.610
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-05-09 19:11:52.610
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn WikiText" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.610
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Task-Focused Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Tasks Connector: Bugzilla" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Context Connector: Team Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Context Connector: Java Development" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "WindowBuilder GroupLayout Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Marketplace Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "WindowBuilder Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Task List" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "WindowBuilder Java Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Swing Designer" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "WindowBuilder Core UI" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Versions Connector: CVS" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Eclipse XML Editors and Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Builds Connector: Hudson/Jenkins" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.610
+!MESSAGE "Eclipse Git Team Provider" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Mylyn Context Connector: Eclipse IDE" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.610
+!MESSAGE "Code Recommenders for Java Developers" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-09 19:11:52.610
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 19:11:52.610
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [4.2.1.201602162146] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-09 19:11:52.726
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-05-09 19:11:52.726
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn WikiText" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.726
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Task-Focused Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Tasks Connector: Bugzilla" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Context Connector: Team Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Context Connector: Java Development" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "WindowBuilder GroupLayout Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Marketplace Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "WindowBuilder Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.726
+!MESSAGE "Mylyn Task List" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "WindowBuilder Java Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Swing Designer" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "WindowBuilder Core UI" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Mylyn Versions Connector: CVS" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Eclipse XML Editors and Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Mylyn Builds Connector: Hudson/Jenkins" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.727
+!MESSAGE "Eclipse Git Team Provider" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Mylyn Context Connector: Eclipse IDE" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.727
+!MESSAGE "Code Recommenders for Java Developers" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-09 19:11:52.727
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 19:11:52.727
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [4.2.1.201602162146] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-09 19:11:52.926
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-05-09 19:11:52.926
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "Mylyn WikiText" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.926
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "Mylyn Task-Focused Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "Mylyn Tasks Connector: Bugzilla" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.926
+!MESSAGE "Mylyn Context Connector: Team Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Mylyn Context Connector: Java Development" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "WindowBuilder GroupLayout Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Marketplace Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "WindowBuilder Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Mylyn Task List" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "WindowBuilder Java Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Swing Designer" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "WindowBuilder Core UI" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Mylyn Versions Connector: CVS" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Eclipse XML Editors and Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Mylyn Builds Connector: Hudson/Jenkins" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.927
+!MESSAGE "Eclipse Git Team Provider" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Mylyn Context Connector: Eclipse IDE" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.927
+!MESSAGE "Code Recommenders for Java Developers" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-09 19:11:52.927
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 19:11:52.927
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [4.2.1.201602162146] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-09 19:11:52.928
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-05-09 19:11:52.928
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn WikiText" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.928
+!MESSAGE "Eclipse Git Team Provider - Task focused interface" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Task-Focused Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Tasks Connector: Bugzilla" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Context Connector: Team Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Context Connector: Java Development" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "WindowBuilder GroupLayout Support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Marketplace Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "WindowBuilder Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Task List" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "WindowBuilder Java Core" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Swing Designer" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "WindowBuilder Core UI" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Versions Connector: CVS" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Eclipse XML Editors and Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Builds Connector: Hudson/Jenkins" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2016-05-09 19:11:52.928
+!MESSAGE "Eclipse Git Team Provider" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Mylyn Context Connector: Eclipse IDE" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-05-09 19:11:52.928
+!MESSAGE "Code Recommenders for Java Developers" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-09 19:11:52.928
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-09 19:11:52.929
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [4.2.1.201602162146] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2016-05-09 20:35:04.813
+!MESSAGE Exception saving preferences to: /Users/shaylebovitz/Downloads/eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.java.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+!STACK 0
+java.io.FileNotFoundException: /Users/shaylebovitz/Downloads/eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.java.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.bak (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.copy(SafeFileOutputStream.java:83)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:317)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1135)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:137)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2016-05-09 20:35:04.816
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: /Users/shaylebovitz/Downloads/eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.java.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:323)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1135)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:137)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-05-09 21:09:28.801 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-09 21:10:41.870
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-05-09 21:10:49.966
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Internal Server Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Internal Server Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2016-05-09 21:26:33.422 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/shaylebovitz/Documents/Interstellar/ -product org.eclipse.epp.package.jee.product -keyring /Users/shaylebovitz/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-09 21:26:45.370
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-05-09 21:26:53.763
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Internal Server Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Internal Server Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)

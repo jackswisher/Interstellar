@@ -18,7 +18,7 @@ public class UFO extends Satellite
 		Vector forceTot = new Vector(0.0, 0.0);
 		for(Satellite s: array)
 		{
-			if(s.isPlanet() || s.isEarth() /* true if is a planet or earth*/)
+			if(s.isPlanet() || s.isPlanet()) // true if is a planet or earth 
 			{
 				Vector newForce = new Vector(0.0, 0.0);
 				double deltaX = super.getPosition().getX() - s.getPosition().getX();
@@ -46,5 +46,17 @@ public class UFO extends Satellite
 	public void draw()
 	{
 		
+	}
+
+	@Override
+	public void getNextPosition() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isPlanet() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }
