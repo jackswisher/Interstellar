@@ -6,6 +6,8 @@ import java.awt.event.MouseListener;
 public class PlayGame implements MouseListener, KeyListener
 {
 	public static final double TIME_INTERVAL = 0.01; 
+	
+	
 	public static void main(String[] args) 
 	{
 		
@@ -15,7 +17,10 @@ public class PlayGame implements MouseListener, KeyListener
 	
 	public void keyPressed(KeyEvent e) 
 	{
-		// TODO Auto-generated method stub
+		if (e.getKeyCode() == KeyEvent.SPACE)
+		{
+			//launch UFO
+		}
 		
 	}
 	
